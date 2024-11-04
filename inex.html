@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual cosmetologist 👩‍⚕️</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="class-image">
+        <img class="photo" src="photo.png" alt="Photo">
+        <h2 class="name">Virtual cosmetologist</h2>
+    </div>
+    <div class="dialogue">
+        <p class="first">I need help, I have dry skin and frequent irritations, I need to choose the right care, but I don’t know what will suit me.</p>
+        <p class="second">Have you heard about a virtual cosmetologist? With his help, I was finally able to choose the ideal care for myself!</p>
+    </div>
+    <div class="none">
+        <h3></h3>
+        <div class="btn-container">
+            <button id="yes"></button>
+            <button id="no"></button>
+        </div>
+            <p id="answer"></p>
+    </div>
+    <div class="care-firstContainer">
+        <div class="cream-container">
+            <img id="cream" src="" alt="care">
+            <p id="careCream"></p>
+            <p id="priceCream"></p>
+        </div>
+        <div class="cleaning-container">
+            <img id="cleaning" src="" alt="care">
+            <p id="careCleaning"></p>
+            <p id="priceCleaning"></p>
+        </div>
+        <div class="toner-container">
+            <img id="toner" src="" alt="care">
+            <p id="careToner"></p>
+            <p id="priceToner"></p>
+        </div>
+    </div>
+    <div class="care-containerSecond">
+        <div class="serum-container">
+            <img id="serum" src="" alt="care">
+            <p id="careSerum"></p>
+            <p id="priceSerum"></p>
+        </div>
+        <div class="mask-container">
+            <img id="mask" src="" alt="care">
+            <p id="careMask"></p>
+            <p id="priceMask"></p>
+        </div>
+        <div class="spf-container">
+            <img id="spf" src="" alt="care">
+            <p id="careSPF"></p>
+            <p id="priceSPF"></p>
+        </div>
+    </div>
+    <div class="header">
+        <h4>Fill out the form so we can send a selection of daily care products to your email.</h4>
+    </div>
+    <form
+        action="https://formspree.io/f/xvoeyngw"
+        method="POST">
+        <input type="hidden" name="_language" value="en"/>
+        <div class="header">
+            <label>
+            Your email:
+            <input type="email" class="text-input" name="email" placeholder="Your email..." required="">
+            </label>
+        </div>
+        <div class="header">
+            <label>
+            Your message:
+            <textarea class="text-input" name="message" placeholder="We will be grateful for your assessment of our site..." required=""></textarea>
+            </label>
+        </div>
+        <div class="header">
+            <button class="message" type="submit">Send</button>
+        </div>
+    </form>
+    <div class="button-container">
+        <button id="btn" class="care">Choose care</button>
+    </div>
+    <div class="text-container">
+        <p class="text">Fill out a short questionnaire about your skin. Take a few minutes to answer questions, and a virtual cosmetologist will immediately select a treatment specifically for your needs. You can save a selection of products for daily use by sending them to your email address.</p>
+    </div>
+    <div class="education-container">
+        <p class="education">The site was created for educational purposes.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

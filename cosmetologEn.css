@@ -1,0 +1,389 @@
+body {
+    background-color: #cccccc;
+}
+
+.btn-slice {
+    opacity: 0;
+    margin-top: 50px;
+    padding: 1.3rem 2.5rem;
+    border: 2px solid #453917;
+    border-radius: 0rem;
+    color: #453917;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+    position: relative;
+    -webkit-transition: all 1000ms cubic-bezier(0.890, 0, 0.140, 1);
+    -webkit-transition: all 1000ms cubic-bezier(0.890, -0.170, 0.140, 1.225); 
+    -moz-transition: all 1000ms cubic-bezier(0.890, -0.170, 0.140, 1.225); 
+    -o-transition: all 1000ms cubic-bezier(0.890, -0.170, 0.140, 1.225); 
+    transition: all 1000ms cubic-bezier(0.890, -0.170, 0.140, 1.225); 
+    -webkit-transition-timing-function: cubic-bezier(0.890, 0, 0.140, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.890, -0.170, 0.140, 1.225); 
+    -moz-transition-timing-function: cubic-bezier(0.890, -0.170, 0.140, 1.225); 
+    -o-transition-timing-function: cubic-bezier(0.890, -0.170, 0.140, 1.225); 
+    transition-timing-function: cubic-bezier(0.890, -0.170, 0.140, 1.225); 
+}
+
+.btn-slice .top  {
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    top: 0;
+    -webkit-transition: all 300ms cubic-bezier(1.000, 0, 0.025, 1); 
+    -webkit-transition: all 300ms cubic-bezier(1.000, -0.055, 0.025, 1.040); 
+    -moz-transition: all 300ms cubic-bezier(1.000, -0.055, 0.025, 1.040); 
+    -o-transition: all 300ms cubic-bezier(1.000, -0.055, 0.025, 1.040); 
+    transition: all 300ms cubic-bezier(1.000, -0.055, 0.025, 1.040); 
+    -webkit-transition-timing-function: cubic-bezier(1.000, 0, 0.025, 1); 
+    -webkit-transition-timing-function: cubic-bezier(1.000, -0.055, 0.025, 1.040); 
+    -moz-transition-timing-function: cubic-bezier(1.000, -0.055, 0.025, 1.040); 
+    -o-transition-timing-function: cubic-bezier(1.000, -0.055, 0.025, 1.040); 
+    transition-timing-function: cubic-bezier(1.000, -0.055, 0.025, 1.040); 
+    -webkit-transition-delay:0.35s;     
+    -moz-transition-delay::0.35s; 
+    -ms-transition-delay::0.35s;     
+    -o-transition-delay::0.35s;     
+    transition-delay::0.35s;
+}
+
+.btn-slice .bottom  {
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    bottom: 0;
+    -webkit-transition: all 300ms cubic-bezier(1.000, 0, 0.025, 1); 
+    -webkit-transition: all 300ms cubic-bezier(1.000, -0.055, 0.025, 1.040); 
+    -moz-transition: all 300ms cubic-bezier(1.000, -0.055, 0.025, 1.040); 
+    -o-transition: all 300ms cubic-bezier(1.000, -0.055, 0.025, 1.040); 
+    transition: all 300ms cubic-bezier(1.000, -0.055, 0.025, 1.040); 
+    -webkit-transition-timing-function: cubic-bezier(1.000, 0, 0.025, 1); 
+    -webkit-transition-timing-function: cubic-bezier(1.000, -0.055, 0.025, 1.040); 
+    -moz-transition-timing-function: cubic-bezier(1.000, -0.055, 0.025, 1.040); 
+    -o-transition-timing-function: cubic-bezier(1.000, -0.055, 0.025, 1.040); 
+    transition-timing-function: cubic-bezier(1.000, -0.055, 0.025, 1.040);
+    -webkit-transition-delay:0.35s;     
+    -moz-transition-delay::0.35s; 
+    -ms-transition-delay::0.35s;     
+    -o-transition-delay::0.35s;     
+    transition-delay::0.35s;
+}
+
+.btn-slice .bottom span {
+    top: -16px;
+    position: absolute;
+    left: 0;
+}
+
+.btn-slice:hover .top {
+    top: -5px;
+    -webkit-transition-delay:0.35s;     
+    -moz-transition-delay::0.35s; 
+    -ms-transition-delay::0.35s;     
+    -o-transition-delay::0.35s;     
+    transition-delay::0.35s; 
+}
+
+.btn-slice:hover .bottom {
+    bottom: -15px;
+    -webkit-transition-delay:0.35s;     
+    -moz-transition-delay::0.35s; 
+    -ms-transition-delay::0.35s;     
+    -o-transition-delay::0.35s;     
+    transition-delay::0.35s; 
+}
+
+.btn-slice:hover, .btn-slice:focus, .btn-slice:active {
+    margin-left: 10px;
+}
+
+.btn-slice:before{
+    content: '';
+    height: 1px;
+    width: 60px;
+    background-color: #453917;
+    position: absolute;
+    margin-top: 15px;
+    right: -35px;
+    -webkit-transition: all 1000ms cubic-bezier(0.890, 0, 0.140, 1); 
+    -webkit-transition: all 1000ms cubic-bezier(0.890, -0.170, 0.140, 1.225); 
+    -moz-transition: all 1000ms cubic-bezier(0.890, -0.170, 0.140, 1.225); 
+    -o-transition: all 1000ms cubic-bezier(0.890, -0.170, 0.140, 1.225); 
+    transition: all 1000ms cubic-bezier(0.890, -0.170, 0.140, 1.225);
+    -webkit-transition-timing-function: cubic-bezier(0.890, 0, 0.140, 1); 
+    -webkit-transition-timing-function: cubic-bezier(0.890, -0.170, 0.140, 1.225); 
+    -moz-transition-timing-function: cubic-bezier(0.890, -0.170, 0.140, 1.225); 
+    -o-transition-timing-function: cubic-bezier(0.890, -0.170, 0.140, 1.225); 
+    transition-timing-function: cubic-bezier(0.890, -0.170, 0.140, 1.225); 
+}
+
+.btn-slice:hover:before{
+    width: 130%;
+}
+
+.class-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    width: 20%;
+    margin-right: 20px;
+}
+
+h2 {
+    color: #453917;
+    font-size: 40px;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+.dialogue {
+    margin-top: 3%;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.first {
+    font-size: 20px;
+    font-family: "Ubuntu Sans", sans-serif;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 20px 20px 20px 0px;
+    padding: 20px;
+    margin-right: 20%;
+    opacity: 0;
+}
+
+.second {
+    font-size: 20px;
+    font-family: "Ubuntu Sans", sans-serif;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 20px 20px 0px 20px;
+    padding: 20px;
+    margin-right: 10%;
+    opacity: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#yes:hover, #no:hover, .message:hover {
+    background-image: linear-gradient(#e0be2c, #9bbb38);
+    color: #cccccc;
+    border: none;
+    font-weight: 800;
+}
+
+.text-container {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    margin-top: 2%;
+}
+
+.text {
+    opacity: 0;
+}
+
+.text, #answer {
+    font-size: 20px;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+.none {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-top: 2%;
+}
+
+.btn-container {
+    display: flex;
+}
+
+h3, #yes, #no, #answer, h4, form {
+    display: none;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: "Ubuntu Sans", sans-serif;
+    color: #453917;
+    text-align: center;
+}
+
+h4 {
+    font-size: 25px;
+    font-family: "Ubuntu Sans", sans-serif;
+    color: #453917;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.text-input {
+    font-size: 16px;
+    font-family: "Ubuntu Sans", sans-serif;
+    color: #453917;
+    background-color: #cccccc;
+    text-align: center;
+    border: 1px solid #453917;
+    border-radius: 10px;
+    padding: 12px;
+    width: 300px;
+}
+
+label {
+    font-size: 20px;
+    font-family: "Ubuntu Sans", sans-serif;
+    color: #453917;
+}
+
+.message {
+    padding: 20px;
+    width: 100%;
+    background-color: #cccccc;
+    border: 2px solid #453917 ;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+#yes, #no {
+    padding: 10px;
+    width: 150px;
+    background-color: #cccccc;
+    border: 2px solid #453917;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: "Ubuntu Sans", sans-serif;
+    margin: 1%;
+}
+
+.care-firstContainer, .care-containerSecond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cream-container, .cleaning-container, .toner-container, .serum-container, .mask-container, .spf-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 1%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#cream, #cleaning, #toner, #serum, #mask, #spf {
+    width: 300px;
+}
+
+#careCream, #careCleaning, #careToner, #careSerum, #careMask, #careSPF {
+    font-size: 18px;
+    font-family: "Ubuntu Sans", sans-serif;
+    color: #453917;
+}
+
+#priceCream, #priceCleaning, #priceToner, #priceSerum, #priceMask, #priceSPF {
+    font-weight: bold;
+    font-size: 23px;
+    font-family: "Ubuntu Sans", sans-serif;
+    color: #453917;
+    text-align: center;
+}
+
+.education-container {
+    display: flex;
+    justify-content: center;
+}
+
+.education {
+    opacity: 0;
+    font-size: 13px;
+    font-family: "Ubuntu Sans", sans-serif;
+    color: #453917;
+}
+
+@media all and (max-width:800px) {
+    #btn {
+        width: 33%;
+    }
+
+    #cream, #cleaning, #toner, #serum, #mask, #spf {
+        width: 200px;
+    }
+}
+
+@media all and (max-width:500px) {
+    h2 {
+        font-size: 25px;
+    }
+
+    .photo {
+        width: 30%;
+        margin-left: 30px;
+    }
+
+    .first, .second {
+        font-size: 18px;
+        width: 60%;
+    }
+
+    #btn {
+        width: 55%;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .text-container, .none {
+        width: 90%;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .care-firstContainer, .care-containerSecond {
+        flex-direction: column;
+    }
+
+    .cream-container, .cleaning-container, .toner-container, .serum-container, .mask-container, .spf-container {
+        width: 85%;
+    }
+
+    #priceCream, #priceCleaning, #priceToner, #priceSerum, #priceMask, #priceSPF {
+        text-align: start;
+    }
+
+    .btn-slice .bottom {
+        height: 10px;
+    }
+
+    .btn-slice .top span {
+        height: -10px;
+    }
+
+    .btn-slice {
+        padding: 1rem 2.2rem;
+        font-size: 1.2rem;
+    }
+}
+
+
+
