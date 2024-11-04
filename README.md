@@ -9,3 +9,11 @@
 ### :hammer_and_wrench: About App
 <p>The application is designed to make it possible to choose cosmetics for women without leaving home. To do this, you need to answer a few questions and then you will receive a list of suggested care products. You can choose any products you like from the list.</p>
 
+  ### :hammer_and_wrench: Languages and Tools 
+  <div>
+      <img src="https://img.icons8.com/?size=48&id=20909&format=png" alt="HTML" width="40px"/>
+      <img src="https://img.icons8.com/?size=48&id=7gdY5qNXaKC0&format=png" alt="CSS" width="40px"/>
+      <img src="https://img.icons8.com/?size=48&id=108784&format=png" alt="JavaScript" width="40px"/>
+      <img src="https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg" alt="GSAP" width="40px"/>
+  </div>
+
