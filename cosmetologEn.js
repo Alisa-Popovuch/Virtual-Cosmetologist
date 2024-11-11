@@ -54,512 +54,512 @@ const form = document.querySelector("form");
 const skinCareData = {
     normalSkin18: {
         cream: {
-            src: "cream18NS.jpg",
+            src: "./assets/cream18NS.jpg",
             text: "Christina Delicate Hydrating Day Treatment + Vitamin E, 250 ml",
             price: "32$"
         }, 
         cleaning: {
-            src: "cleaning18NS.jpg",
+            src: "./assets/cleaning18NS.jpg",
             text: "Comfort Zone Essential Face Wash, 150 ml",
             price: "61$"
         },
         toner: {
-            src: "toner18NS.jpg",
+            src: "./assets/toner18NS.jpg",
             text: "Christina Fresh Purifying Toner, 300 ml",
             price: "34$"
         },
         serum: {
-            src: "serum18NS.jpg",
+            src: "./assets/serum18NS.jpg",
             text: "Esthetic House Formula Ampoule Gold Snail 90%, 80 ml",
             price: "14$"
         }, 
         mask: {
-            src: "mask18NS.jpg",
+            src: "./assets/mask18NS.jpg",
             text: "Dr.Hedison Real Mugwort Heating Claу Pack, 265 g",
             price: "33$"
         }, 
         spf: {
-            src: "spf26DS.webp",
+            src: "./assets/spf26DS.webp",
             text: "Gigi Sun Care Daily Protector SPF 30, 75 ml",
             price: "72$"
         }
     },
     normalSkin26: {
         cream: {
-            src: "cream26NS.jpg",
+            src: "./assets/cream26NS.jpg",
             text: "Phytorelax Laboratories Lux Lift Argan Illuminating Face Cream Early Wrinkles, 50 ml",
             price: "17$"
         }, 
         cleaning: {
-            src: "cleaning26NS.jpg",
+            src: "./assets/cleaning26NS.jpg",
             text: "ONmacabim System Plus Cleanser Foam Anti-Aging, 150 ml",
             price: "28$"
         },
         toner: {
-            src: "toner8NS.webp",
+            src: "./assets/toner8NS.webp",
             text: "ONmacabim NR Lotion Toner, 250 ml",
             price: "25$"
         },
         serum: {
-            src: "serum26NS.webp",
+            src: "./assets/serum26NS.webp",
             text: "Phytorelax Laboratories Lux Lift Argan Multi-Active Serum, 30 ml",
             price: "23$"
         }, 
         mask: {
-            src: "mask26NS.jpg",
+            src: "./assets/mask26NS.jpg",
             text: "Holy Land Cosmetics Renew Formula Renewing Mask, 50 ml",
             price: "42$"
         }, 
         spf: {
-            src: "spf26NS.jpg",
+            src: "./assets/spf26NS.jpg",
             text: "SkinClinic Hydro-Nourishing SPF30 Color Clair, 50 ml",
             price: "49$"
         }
     },
     normalSkin36: {
         cream: {
-            src: "cream36NS.jpg",
+            src: "./assets/cream36NS.jpg",
             text: "Soskin Moisturizing Anti-ageing Cream, 50 ml",
             price: "47$"
         }, 
         cleaning: {
-            src: "cleaning36NS.jpg",
+            src: "./assets/cleaning36NS.jpg",
             text: "Christina Wish Facial Wash, 300 ml",
             price: "32$"
         },
         toner: {
-            src: "toner36NS.jpg",
+            src: "./assets/toner36NS.jpg",
             text: "Soskin Glyco-C Pigment-Wrinkle Corrective Care, 50 ml",
             price: "46$"
         },
         serum: {
-            src: "serum36NS.webp",
+            src: "./assets/serum36NS.webp",
             text: "Phytorelax Laboratories Bio Concentrated Active Facial Serum Glycolift, 30 ml",
             price: "21$"
         }, 
         mask: {
-            src: "mask36NS.jpg",
+            src: "./assets/mask36NS.jpg",
             text: "Christina Сhateau de Beaute Vino Glory Mask Step 4B, 250 ml",
             price: "63$"
         }, 
         spf: {
-            src: "spf26NS.jpg",
+            src: "./assets/spf26NS.jpg",
             text: "SkinClinic Hydro-Nourishing SPF30 Color Clair, 50 ml",
             price: "49$"
         }
     },
     normalSkin50: {
         cream: {
-            src: "cream50NS.jpg",
+            src: "./assets/cream50NS.jpg",
             text: "31% Ella Bache Magistral Cream Matrilex, 50 ml",
             price: "34$"
         }, 
         cleaning: {
-            src: "toner36DS.jpg",
+            src: "./assets/toner36DS.jpg",
             text: "Keenwell Aquasphera (day cream, 80 ml + serum, 50 ml + mask-cream for the skin around the eyes, 20 ml)",
             price: "92$"
         },
         toner: {
-            src: "toner50NS.jpg",
+            src: "./assets/toner50NS.jpg",
             text: "Christina Illustrious Micellar Water Step 1, 300 ml",
             price: "29$"
         },
         serum: {
-            src: "serum50NS.jpg",
+            src: "./assets/serum50NS.jpg",
             text: "Christina Wish Rejuvenating Serum, 30 ml",
             price: "59$"
         }, 
         mask: {
-            src: "mask50NS.jpg",
+            src: "./assets/mask50NS.jpg",
             text: "Diego Dalla Palma Revivyl Resurface2 Soothing Rebalancing Mask, 250 ml",
             price: "30$"
         }, 
         spf: {
-            src: "spf26NS.jpg",
+            src: "./assets/spf26NS.jpg",
             text: "SkinClinic Hydro-Nourishing SPF30 Color Clair, 50 ml",
             price: "49$"
         }
     },
     combinationSkin18: {
         cream: {
-            src: "cream18SC.webp",
+            src: "./assets/cream18SC.webp",
             text: "Dr.Hedison AHA 10% Scaling Cream, 50 ml",
             price: "48$"
         }, 
         cleaning: {
-            src: "cleaning18CS.webp",
+            src: "./assets/cleaning18CS.webp",
             text: "Clarena Hyaluron 3D Line Hyaluron 3D Peeling, 100 ml",
             price: "19$"
         },
         toner: {
-            src: "toner18SC.webp",
+            src: "./assets/toner18SC.webp",
             text: "Comfort Zone Active Pureness Toner, 200 ml",
             price: "55$"
         },
         serum: {
-            src: "serum18SC.jpg",
+            src: "./assets/serum18SC.jpg",
             text: "Bielenda Professional Face Program Normalizing Face Serum, 30 ml",
             price: "14$"
         }, 
         mask: {
-            src: "mask18OS.webp",
+            src: "./assets/mask18OS.webp",
             text: "Christina Sea Herbal Beauty Mask Green Apple, 60 ml",
             price: "18$"
         }, 
         spf: {
-            src: "spf18SC.jpg",
+            src: "./assets/spf18SC.jpg",
             text: "Farmona Professional Ideal Protect Moisturizing Protective Cream SPF50, 50 ml",
             price: "32$"
         }
     },
     combinationSkin26: {
         cream: {
-            src: "cream26SC.webp",
+            src: "./assets/cream26SC.webp",
             text: "Sothys Firming Youth Cream, 50 ml",
             price: "59$"
         }, 
         cleaning: {
-            src: "cleaning26SC.jpg",
+            src: "./assets/cleaning26SC.jpg",
             text: "Institut Esthederm Osmoclean Pure Cleansing Foam, 150 ml",
             price: "39$"
         },
         toner: {
-            src: "toner26SC.jpg",
+            src: "./assets/toner26SC.jpg",
             text: "Institut Esthederm Intensive Propolis+, 130 ml",
             price: "58$"
         },
         serum: {
-            src: "serum26SC.jpg",
+            src: "./assets/serum26SC.jpg",
             text: "Institut Esthederm Intensive AHA Peel, 30 ml",
             price: "60$"
         }, 
         mask: {
-            src: "mask26SC.jpg",
+            src: "./assets/mask26SC.jpg",
             text: "Anna Lotan Barbados Soothing Mask, 75 ml",
             price: "43$"
         }, 
         spf: {
-            src: "spf18SC.jpg",
+            src: "./assets/spf18SC.jpg",
             text: "Farmona Professional Ideal Protect Moisturizing Protective Cream SPF50, 50 ml",
             price: "35$"
         }
     }, 
     combinationSkin36: {
         cream: {
-            src: "cream26SC.webp",
+            src: "./assets/cream26SC.webp",
             text: "Sothys Firming Youth Cream, 50 ml",
             price: "72$"
         }, 
         cleaning: {
-            src: "cleaning36SC.jpg",
+            src: "./assets/cleaning36SC.jpg",
             text: "Anna Lotan New Age Control Purifying Liquid Soap, 200 ml",
             price: "51$"
         },
         toner: {
-            src: "toner36SC.jpg",
+            src: "./assets/toner36SC.jpg",
             text: "Christina Chateau de Beaute Vino Elixir Step 3, 100 ml",
             price: "99$"
         },
         serum: {
-            src: "serum36SC.jpg",
+            src: "./assets/serum36SC.jpg",
             text: "Academie Aromatherapie Hydro-Matifying Fluid Provence Eucalyptus, 50 ml",
             price: "47$"
         }, 
         mask: {
-            src: "mask36SC.jpg",
+            src: "./assets/mask36SC.jpg",
             text: "Holy Land Cosmetics ABR Complex Brightening Mask, 50 ml",
             price: "62$"
         }, 
         spf: {
-            src: "spf18SC.jpg",
+            src: "./assets/spf18SC.jpg",
             text: "Farmona Professional Ideal Protect Moisturizing Protective Cream SPF50, 50 ml",
             price: "41$"
         }
     }, 
     combinationSkin50: {
         cream: {
-            src: "cream50SC.jpg",
+            src: "./assets/cream50SC.jpg",
             text: "ONmacabim NR Moisturizing Cream Combination SPF 15, 50 ml",
             price: "33$"
         }, 
         cleaning: {
-            src: "cleaning50SC.jpg",
+            src: "./assets/cleaning50SC.jpg",
             text: "Diego Dalla Palma Revivyl Resurface2 Anti Age Combined Acids Concentrate, 110 ml",
             price: "39$"
         },
         toner: {
-            src: "toner50SC.jpg",
+            src: "./assets/toner50SC.jpg",
             text: "Christina Forever Young Absolute Contour Kit (serum Absolute, 30 ml + serum 3Luronic, 30 ml + cream Chin&Neck, 50 ml)",
             price: "159$"
         },
         serum: {
-            src: "serum50SC.jpg",
+            src: "./assets/serum50SC.jpg",
             text: "Christina Forever Young Moisture Fusion Serum, 30 ml",
             price: "99$"
         }, 
         mask: {
-            src: "mask50SC.jpg",
+            src: "./assets/mask50SC.jpg",
             text: "Gigi Nutri-Peptide Purifying Clay Mask, 50 ml",
             price: "69$"
         }, 
         spf: {
-            src: "spf18SC.jpg",
+            src: "./assets/spf18SC.jpg",
             text: "Farmona Professional Ideal Protect Moisturizing Protective Cream SPF50, 50 ml",
             price: "34$"
         }
     },
     oilySkin18: {
         cream: {
-            src: "cream18OS.jpg",
+            src: "./assets/cream18OS.jpg",
             text: "Clarena Liposome Pyruvic Acid Salicylic & Cream, 50 ml",
             price: "21$"
         }, 
         cleaning: {
-            src: "cleaning18OS.webp",
+            src: "./assets/cleaning18OS.webp",
             text: "Medik8 Surface Radiance Cleanse with AHA and BHA acids, 40 ml",
             price: "23$"
         },
         toner: {
-            src: "toner18OS.jpg",
+            src: "./assets/toner18OS.jpg",
             text: "Facial toner Kaetana Vugri.net Problem skin, for oily skin, with propolis, 250 ml",
             price: "12$"
         },
         serum: {
-            src: "serum18OS.jpg",
+            src: "./assets/serum18OS.jpg",
             text: "Elemis Clarifying Serum, 30 ml",
             price: "50$"
         }, 
         mask: {
-            src: "mask18OS.webp",
+            src: "./assets/mask18OS.webp",
             text: "Christina Sea Herbal Beauty Mask Green Apple, 60 ml",
             price: "17$"
         }, 
         spf: {
-            src: "spf18OS.webp",
+            src: "./assets/spf18OS.webp",
             text: "Obagi Medical Sun Shield Matte Broad Spectrum SPF 50, 85 g",
             price: "41$"
         }
     },
     oilySkin26: {
         cream: {
-            src: "cream26OS.jpg",
+            src: "./assets/cream26OS.jpg",
             text: "Gigi Vitamin E Hydratant SPF 17, 50 ml",
             price: "82$"
         }, 
         cleaning: {
-            src: "cleaning26OS.jpg",
+            src: "./assets/cleaning26OS.jpg",
             text: "Institut Esthederm Osmoclean Pure Cleansing Foam, 150 ml",
             price: "41$"
         },
         toner: {
-            src: "toner26OS.jpg",
+            src: "./assets/toner26OS.jpg",
             text: "Bruno Vassari Glyco System Dual-Phase Toner, 200 ml",
             price: "22$"
         },
         serum: {
-            src: "serum26OS.jpg",
+            src: "./assets/serum26OS.jpg",
             text: "Institut Esthederm Intensive AHA Peel, 30 ml",
             price: "53$"
         }, 
         mask: {
-            src: "mask26OS.jpg",
+            src: "./assets/mask26OS.jpg",
             text: "Anna Lotan Barbados Soothing Mask, 75 ml",
             price: "42$"
         }, 
         spf: {
-            src: "spf18OS.webp",
+            src: "./assets/spf18OS.webp",
             text: "Obagi Medical Sun Shield Matte Broad Spectrum SPF 50, 85 g",
             price: "42$"
         }
     },
     oilySkin36: {
         cream: {
-            src: "cream36OS.jpg",
+            src: "./assets/cream36OS.jpg",
             text: "Image Skincare Ageless Total Repair Creme, 56.7 g",
             price: "57$"
         }, 
         cleaning: {
-            src: "cleaning36OS.jpg",
+            src: "./assets/cleaning36OS.jpg",
             text: "Diego Dalla Palma Revivyl Resurface2 Anti Age Combined Acids Concentrate, 110 ml",
             price: "44$"
         },
         toner: {
-            src: "toner26OS.jpg",
+            src: "./assets/toner26OS.jpg",
             text: "Bruno Vassari Glyco System Dual-Phase Toner, 200 ml",
             price: "24$"
         },
         serum: {
-            src: "serum36OS.webp",
+            src: "./assets/serum36OS.webp",
             text: "Phytorelax Laboratories Bio Concentrated Active Facial Serum Glycolift, 30 ml",
             price: "28$"
         }, 
         mask: {
-            src: "mask36OS.jpg",
+            src: "./assets/mask36OS.jpg",
             text: "Image Skincare Ageless Total Overnight Retinol Masque, 48 g",
             price: "100$"
         }, 
         spf: {
-            src: "spf18OS.webp",
+            src: "./assets/spf18OS.webp",
             text: "Obagi Medical Sun Shield Matte Broad Spectrum SPF 50, 85 g",
             price: "54$"
         }
     },
     oilySkin50: {
         cream: {
-            src: "cream50OS.jpg",
+            src: "./assets/cream50OS.jpg",
             text: "Image Skincare Ageless Total Retinol-A Creme, 57 g",
             price: "98$"
         }, 
         cleaning: {
-            src: "cleaning50OS.jpg",
+            src: "./assets/cleaning50OS.jpg",
             text: "Diego Dalla Palma Revivyl Resurface2 Preparatory Lotion, 300 ml",
             price: "30$"
         },
         toner: {
-            src: "toner26OS.jpg",
+            src: "./assets/toner26OS.jpg",
             text: "Bruno Vassari Glyco System Dual-Phase Toner, 200 ml",
             price: "21$"
         },
         serum: {
-            src: "serum50OS.jpg",
+            src: "./assets/serum50OS.jpg",
             text: "Phytorelax Laboratories Bio Concentrated Active Facial Serum, 30 ml",
             price: "24$"
         }, 
         mask: {
-            src: "mask50OS.jpg",
+            src: "./assets/mask50OS.jpg",
             text: "Diego Dalla Palma Revivyl Resurface2 Soothing Rebalancing Mask, 250 ml",
             price: "29$"
         }, 
         spf: {
-            src: "spf18OS.webp",
+            src: "./assets/spf18OS.webp",
             text: "Obagi Medical Sun Shield Matte Broad Spectrum SPF 50, 85 g",
             price: "42$"
         }
     },
     drySkin18: {
         cream: {
-            src: "cream18DS.jpg",
+            src: "./assets/cream18DS.jpg",
             text: "Christina Trans dermal Cream with Liposomes, 60 ml",
             price: "35$"
         }, 
         cleaning: {
-            src: "cleaning18DS.jpg",
+            src: "./assets/cleaning18DS.jpg",
             text: "Babor Phyto HY-OL Booster Hydrating, 100 ml",
             price: "31$"
         },
         toner: {
-            src: "toner18DS.jpg",
+            src: "./assets/toner18DS.jpg",
             text: "Academie Hypo-Sensible Toner, 200 ml",
             price: "40$"
         },
         serum: {
-            src: "serum18DS.jpg",
+            src: "./assets/serum18DS.jpg",
             text: "Phytorelax Laboratories Bio Phytorelax Hydro Avena Concentrated Face Serum, 30 ml",
             price: "17$"
         }, 
         mask: {
-            src: "mask18DS.jpg",
+            src: "./assets/mask18DS.jpg",
             text: "Christina Sea Herbal Beauty Mask Vanilla, 60 ml",
             price: "15$"
         }, 
         spf: {
-            src: "spf18DS.jpg",
+            src: "./assets/spf18DS.jpg",
             text: "Bielenda Professional Supremelab Barrier Renew Day Cream SPF 30, 50 ml",
             price: "23$"
         }
     },
     drySkin26: {
         cream: {
-            src: "cream26DS.jpg",
+            src: "./assets/cream26DS.jpg",
             text: "Phytorelax Laboratories Lux Lift Argan Illuminating Face Cream Early Wrinkles, 50 ml",
             price: "20$"
         }, 
         cleaning: {
-            src: "cleaning26DS.webp",
+            src: "./assets/cleaning26DS.webp",
             text: "Janssen Cosmetics Dry Skin Hydro Active Gel, 50 ml",
             price: "35$"
         },
         toner: {
-            src: "toner26DS.webp",
+            src: "./assets/toner26DS.webp",
             text: "ONmacabim NR Lotion Toner, 250 ml",
             price: "34$"
         },
         serum: {
-            src: "serum26DS.webp",
+            src: "./assets/serum26DS.webp",
             text: "Phytorelax Laboratories Lux Lift Argan Multi-Active Serum, 30 ml",
             price: "19$"
         }, 
         mask: {
-            src: "mask26DS.jpg",
+            src: "./assets/mask26DS.jpg",
             text: "Comfort Zone Renight Mask, 60 ml",
             price: "55$"
         }, 
         spf: {
-            src: "spf26DS.webp",
+            src: "./assets/spf26DS.webp",
             text: "Gigi Sun Care Daily Protector SPF 30, 75 ml",
             price: "60$"
         }
     },
     drySkin36: {
         cream: {
-            src: "cream36DS.jpg",
+            src: "./assets/cream36DS.jpg",
             text: "Soskin Moisturizing Anti-ageing Cream, 50 ml",
             price: "49$"
         }, 
         cleaning: {
-            src: "cleaning36DS.jpg",
+            src: "./assets/cleaning36DS.jpg",
             text: "Circadia Vitamin Veil Cleanser Anti-ageing, 236 ml",
             price: "59$"
         },
         toner: {
-            src: "toner36DS.jpg",
+            src: "./assets/toner36DS.jpg",
             text: "Keenwell Aquasphera (day cream, 80 ml + serum, 50 ml + mask-cream for the skin around the eyes, 20 ml)",
             price: "73$"
         },
         serum: {
-            src: "serum36DS.jpg",
+            src: "./assets/serum36DS.jpg",
             text: "Alcina Moisturising Serum, 30 ml",
             price: "30$"
         }, 
         mask: {
-            src: "mask36DS.jpg",
+            src: "./assets/mask36DS.jpg",
             text: "Image Skincare Ageless Total Resurfacing Masque, 57 g",
             price: "49$"
         }, 
         spf: {
-            src: "spf36DS.webp",
+            src: "./assets/spf36DS.webp",
             text: "Image Skincare MD Restoring Daily Defense Moisturizer SPF 50, 57 g",
             price: "70$"
         }
     },
     drySkin50: {
         cream: {
-            src: "cream50DS.jpg",
+            src: "./assets/cream50DS.jpg",
             text: "Utsukusy Sirtuina's Cream, 50 ml",
             price: "36$"
         }, 
         cleaning: {
-            src: "cleaning50DS.webp",
+            src: "./assets/cleaning50DS.webp",
             text: "Babor Doctor Babor Refine Cellular AHA 10+10 Peeling Gel, 50 ml",
             price: "53$"
         },
         toner: {
-            src: "toner50DS.jpg",
+            src: "./assets/toner50DS.jpg",
             text: "Farmona Professional Retin Gold Lifting & Illuminating Eye Cream, 50 ml",
             price: "16$"
         },
         serum: {
-            src: "serum50DS.jpg",
+            src: "./assets/serum50DS.jpg",
             text: "Utsukusy Sirtuina's Serum, 35 ml",
             price: "32$"
         }, 
         mask: {
-            src: "mask50DS.jpg",
+            src: "./assets/mask50DS.jpg",
             text: "ONmacabim NR Nourishing Skin Mask, 50 ml",
             price: "42$"
         }, 
         spf: {
-            src: "spf36DS.webp",
+            src: "./assets/spf36DS.webp",
             text: "Image Skincare MD Restoring Daily Defense Moisturizer SPF 50, 57 g",
             price: "62$"
         }
