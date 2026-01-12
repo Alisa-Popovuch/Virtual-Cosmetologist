@@ -1,24 +1,94 @@
 <div id="header" align="center">
-  <h1>Virtual Cosmetologist</h1>
+  <h1>Virtuelle Kosmetologin</h1>
   <img src="https://img.freepik.com/free-photo/zero-waste-beauty-products_23-2149304152.jpg?t=st=1730731272~exp=1730734872~hmac=26ba0c607a899c0c7fea079a7e8d5d33ca1678e0cca56fddc9f3d1f586fa0719&w=740" alt="" width="200px"/>
 </div>
 <div id="header" align="center">
   <img src="https://komarev.com/ghpvc/?username=Alisa-Popovuch&style=flat-square&color=grey" alt="" width="130px"/>
 </div>
 
-### :hammer_and_wrench: About App
-<p>The application is designed to make it possible to choose cosmetics for women without leaving home. To do this, you need to answer a few questions and then you will receive a list of suggested care products. You can choose any products you like from the list.</p>
+## 🛠️ Über die App
+Diese Anwendung hilft Nutzerinnen dabei, passende Pflegeprodukte für ihre Haut zu finden, ohne das Haus zu verlassen. 
+Die Benutzerin beantwortet mehrere Fragen zu ihrem Hauttyp, und anschließend erhält sie eine individuelle Produktempfehlung.
 
-  ### :hammer_and_wrench: Languages and Tools 
-  <div>
-      <img src="https://img.icons8.com/?size=48&id=20909&format=png" alt="HTML" width="40px"/>
-      <img src="https://img.icons8.com/?size=48&id=7gdY5qNXaKC0&format=png" alt="CSS" width="40px"/>
-      <img src="https://img.icons8.com/?size=48&id=108784&format=png" alt="JavaScript" width="40px"/>
-      <img src="https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg" alt="GSAP" width="40px"/>
-  </div>
-  <p>When creating this application, I first collected all the similar data for each skin type in one object; then I wrote down the functions where I indicated what exactly would need to be shown when calling each of the functions; and indicated when the function should be called (when the button is clicked).</p>
-  <p>Also, when creating the application, I encountered a problem: if all the questions after choosing a skin type were answered "No", when the surveys ended, the application simply gave out care for skin 50+, and did not repeat the question from the beginning. So I learned that this problem can be solved by using location.reload(). I found out that this method allows you to start all over again by reloading the page.</p>
+## 🧠 Funktionsweise
+Alle Produktdaten sind in einem JavaScript-Objekt strukturiert. 
+Abhängig von den Antworten der Benutzerin werden verschiedene Funktionen aufgerufen und die entsprechenden Ergebnisse dynamisch angezeigt.
 
-  ### :hammer_and_wrench: Notes
-  <p>You can use my project for educational purposes.</p>
+## 🧩 Technische Details
+- Dynamische DOM-Manipulation
+- Bedingte Anzeige von Inhalten
+- Arbeit mit Objekten und Arrays
+- Verarbeitung von Benutzereingaben
+
+## 🔧 Sprachen und Tools
+HTML  
+CSS  
+JavaScript  
+GSAP
+
+## 📚 Das habe ich gelernt
+In diesem Projekt habe ich gelernt:
+- Daten in Objekten zu strukturieren
+- Funktionen zu schreiben und über Button-Klicks aufzurufen
+- Inhalte dynamisch ein- und auszublenden
+- Logikfehler zu erkennen und zu beheben
+
+## 🚀 Zukünftige Verbesserungen
+- Anbindung einer echten Produktdatenbank
+- Speichern der Benutzereingaben (Backend)
+- Verbesserung des Designs
+- Responsive Layout für mobile Geräte
+
+## 📝 Hinweise
+Dieses Projekt kann zu Lern- und Übungszwecken verwendet werden.
+
+## 🌐 Live-Demo
+https://virtual-beautican-en.netlify.app/
+
+<div id="header" align="center">
+  <h1>Virtual Cosmetologist</h1>
+  <img src="https://img.freepik.com/free-photo/zero-waste-beauty-products_23-2149304152.jpg?t=st=1730731272~exp=1730734872~hmac=26ba0c607a899c0c7fea079a7e8d5d33ca1678e0cca56fddc9f3d1f586fa0719&w=740" alt="" width="200px"/>
+</div>
+
+## 🛠️ About the App
+This application helps users choose suitable skincare products without leaving home. 
+The user answers several questions about their skin type and preferences, and then receives a personalized list of recommended products.
+
+## 🧠 How it works
+All product data is structured inside a JavaScript object.  
+Based on the user’s answers, the application calls different functions and dynamically displays the corresponding results.
+
+## 🧩 Technical details
+- Dynamic DOM manipulation
+- Conditional rendering
+- Working with objects and arrays
+- Basic user input validation
+
+## 🔧 Languages and Tools
+HTML  
+CSS  
+JavaScript  
+GSAP
+
+## 📚 What I learned
+While developing this project I learned:
+- how to structure data inside objects
+- how to write functions and call them on user actions (button clicks)
+- how to show and hide content dynamically
+- how to fix application logic errors and restart the process when needed
+
+## 🚀 Future improvements
+- add real product database
+- add backend and saving user results
+- improve UI design
+- add mobile responsive layout
+
+## 📝 Notes
+This project may be used for educational purposes.
+
+## 🌐 Live Demo
+https://virtual-beautican-en.netlify.app/
+
+
+
 
