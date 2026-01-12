@@ -2,7 +2,7 @@
   <h1>Virtuelle Kosmetologin</h1>
 </div>
 
-  ![App Demo](demo.gif)
+  ![App Demo](Virtualcosmetologist-GIF.mp4)
   
 <div id="header" align="center">
   <img src="https://komarev.com/ghpvc/?username=Alisa-Popovuch&style=flat-square&color=grey" alt="" width="130px"/>
