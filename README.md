@@ -3,6 +3,14 @@
 </div>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow" alt="JavaScript">
+  <img src="https://img.shields.io/badge/HTML-5-orange" alt="HTML">
+  <img src="https://img.shields.io/badge/CSS-3-blue" alt="CSS">
+  <img src="https://img.shields.io/badge/GSAP-Animation-green" alt="GSAP">
+  <img src="https://img.shields.io/badge/Deployed-Netlify-success" alt="Deployed">
+</p>
+
+<p align="center">
   <img src="gif.gif" alt="App Demo" width="600">
 </p>
   
@@ -30,6 +38,16 @@ CSS
 JavaScript  
 GSAP
 
+## 🔧 Projekt lokal starten
+
+Dieses Projekt benötigt keine zusätzliche Installation oder Abhängigkeiten.
+
+1. Repository klonen:
+   `bash
+   git clone https://github.com/Alisa-Popovuch/Virtual-Cosmetologist.git
+2. Projektordner öffnen
+3. Die Datei index.html im Browser öffnen
+
 ## 📚 Das habe ich gelernt
 In diesem Projekt habe ich gelernt:
 - Daten in Objekten zu strukturieren
@@ -54,6 +72,14 @@ https://virtual-beautican-en.netlify.app/
 </div>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow" alt="JavaScript">
+  <img src="https://img.shields.io/badge/HTML-5-orange" alt="HTML">
+  <img src="https://img.shields.io/badge/CSS-3-blue" alt="CSS">
+  <img src="https://img.shields.io/badge/GSAP-Animation-green" alt="GSAP">
+  <img src="https://img.shields.io/badge/Deployed-Netlify-success" alt="Deployed">
+</p>
+
+<p align="center">
   <img src="gif.gif" alt="App Demo" width="600">
 </p>
 
@@ -76,6 +102,14 @@ HTML
 CSS  
 JavaScript  
 GSAP
+
+## 🔧 How to Run Locally
+
+1. Clone the repository:
+   `bash
+   git clone https://github.com/Alisa-Popovuch/Virtual-Cosmetologist.git
+2. Open the project folder
+3. Open index.html in your browser
 
 ## 📚 What I learned
 While developing this project I learned:
