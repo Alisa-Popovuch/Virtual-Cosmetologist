@@ -18,6 +18,16 @@
   <img src="https://komarev.com/ghpvc/?username=Alisa-Popovuch&style=flat-square&color=grey" alt="" width="130px"/>
 </div>
 
+## 📱 Mobile Friendly / Responsive
+
+Alle Projekte sind vollständig responsive und für folgende Geräte optimiert:
+
+- Desktop
+- Tablet
+- Mobile
+
+Layouts, Menüs und interaktive Elemente passen sich automatisch an verschiedene Bildschirmgrößen an, um eine optimale Benutzererfahrung auf Smartphones und Tablets zu gewährleisten.
+
 ## 🛠️ Über die App
 Diese Anwendung hilft Nutzerinnen dabei, passende Pflegeprodukte für ihre Haut zu finden, ohne das Haus zu verlassen. 
 Die Benutzerin beantwortet mehrere Fragen zu ihrem Hauttyp, und anschließend erhält sie eine individuelle Produktempfehlung.
@@ -82,6 +92,16 @@ https://virtual-beautican-en.netlify.app/
 <p align="center">
   <img src="gif.gif" alt="App Demo" width="600">
 </p>
+
+## 📱 Mobile Friendly / Responsive
+
+All projects are fully responsive and optimized for:
+
+- Desktop
+- Tablet
+- Mobile
+
+This means layouts, menus, and interactive elements adapt to different screen sizes, ensuring a smooth experience on phones and tablets.
 
 ## 🛠️ About the App
 This application helps users choose suitable skincare products without leaving home. 
